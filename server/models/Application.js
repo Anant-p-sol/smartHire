@@ -37,4 +37,5 @@ applicationSchema.index(
   { unique: true }
 );
 
-export const Application = mongoose.model('Application', applicationSchema);
+const Application = mongoose.model('Application', applicationSchema);
+export default Application;
